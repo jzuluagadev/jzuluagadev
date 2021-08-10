@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <div id="app"></div>
+    <div class="container">
+        <div class="input-group input-group-sm mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Numero 1</span>
+            <input v-model.number=num1 type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+          </div>
+          <div class="input-group input-group-sm mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-sm">numero 2</span>
+            <input v-model.number=num2 type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        <div>
+            <button @click="sumar" type="button" class="btn btn-primary">SUMAR</button>
+            <button @click="restar"type="button" class="btn btn-primary">RESTAR</button>
+            <button @click="multiplicar"type="button" class="btn btn-primary">MULTIPLICAR</button>
+            <button @click="dividir"type="button" class="btn btn-primary">DIVIDIR</button>
+        </div>
+        </div>
+
+          
+<body>
+    
+    
+</body>
+</html>
